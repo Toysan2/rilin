@@ -5,7 +5,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Rilin group</title>
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/modern-normalize.min.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
     </head>
     <body>
         <header class="header">
@@ -18,30 +19,25 @@
                     /></a>
                 </div>
                 <nav class="nav">
-                    <ul>
+                    <ul class="nav">
                         <li>
-                            <a
-                                class="nav-link header__link--active"
-                                href="./index.html"
-                                ><span
-                                    ><p>Strona główna</p>
-                                    ></span
-                                >></a
+                            <a href="./index.html">
+                                <p><span>Strona główna</span></p></a
                             >
                         </li>
                         <li>
-                            <a class="nav-link" href="./offer.html"
-                                ><span><p>Oferta</p></span></a
+                            <a href="./offer.html"
+                                ><p><span>Oferta</span></p></a
                             >
                         </li>
                         <li>
-                            <a class="nav-link" href="./contact.html"
-                                ><span><p>Kontakt</p></span></a
+                            <a href="./contact.html"
+                                ><p><span>Kontakt</span></p></a
                             >
                         </li>
                         <li>
-                            <a class="nav-link" href="about-us"
-                                ><span><p>O nas</p></span></a
+                            <a href="./about-us.html"
+                                ><p><span>O nas</span></p></a
                             >
                         </li>
                     </ul>
@@ -78,7 +74,7 @@
                         ŚWIEŻE SMAKI<br />
                         ŚWIATOWA PODRÓŻ!
                     </h1>
-                    <aside></aside>
+
                     <button class="hero__button" data-modal-open type="button">
                         Zamów usługę
                     </button>
@@ -513,110 +509,20 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="container footer-wrapper">
-                <div>
-                    <a class="logo" href="./index.html"
-                        >Web<span class="logo--white">Studio</span></a
-                    >
-                    <address class="footer__address-container">
-                        <a
-                            class="footer__address"
-                            href="https://goo.gl/maps/V1taE6vsMn2LFqJW6"
-                            target="__blank"
-                            >m. Warszawa, Aleje Jerozolimskie 21</a
-                        >
-                        <a class="footer-font" href="mailto:info@example.com"
-                            >info@example.com</a
-                        >
-                        <a class="footer-font" href="tel:48111111111"
-                            >+48 111 111 111</a
-                        >
-                    </address>
-                </div>
-                <div class="footer__join-us__container">
-                    <h4 class="footer__join-us-font">Dołącz do nas</h4>
-                    <div class="footer__join-us__social-container">
-                        <a class="footer__join-us__social-icon-size" href="#">
-                            <div class="footer__join-us__social-icon-size">
-                                <svg
-                                    class="svg-fill--white"
-                                    width="20"
-                                    height="20"
-                                >
-                                    <use
-                                        href="./images/svg/icons.svg#icon-instagram-2"
-                                    ></use>
-                                </svg></div></a
-                        ><a class="footer__join-us__social-icon-size" href="#">
-                            <div class="footer__join-us__social-icon-size">
-                                <svg
-                                    class="svg-fill--white"
-                                    width="20"
-                                    height="20"
-                                >
-                                    <use
-                                        href="./images/svg/icons.svg#icon-twitter-1"
-                                    ></use>
-                                </svg></div></a
-                        ><a class="footer__join-us__social-icon-size" href="#">
-                            <div class="footer__join-us__social-icon-size">
-                                <svg
-                                    class="svg-fill--white"
-                                    width="20"
-                                    height="20"
-                                >
-                                    <use
-                                        href="./images/svg/icons.svg#icon-facebook-1"
-                                    ></use>
-                                </svg></div></a
-                        ><a class="footer__join-us__social-icon-size" href="#">
-                            <div class="footer__join-us__social-icon-size">
-                                <svg
-                                    class="svg-fill--white"
-                                    width="20"
-                                    height="20"
-                                >
-                                    <use
-                                        href="./images/svg/icons.svg#icon-linkedin-1"
-                                    ></use>
-                                </svg></div
-                        ></a>
-                    </div>
-                </div>
-                <div class="footer__newsletter">
-                    <form name="newsletter-form">
-                        <label>
-                            <h4 class="footer__join-us-font">
-                                Zapisz się do newslettera
-                            </h4>
-                            <input
-                                id="email"
-                                class="footer__newsletter__input"
-                                type="email"
-                                name="email"
-                                placeholder="E-mail"
-                                required
-                        /></label>
-                        <button
-                            class="footer__newsletter__button"
-                            type="submit"
-                        >
-                            <div>
-                                <h5 class="footer__newsletter__button-font">
-                                    Zapisz się
-                                </h5>
-                            </div>
-                            <div>
-                                <svg width="24" height="24">
-                                    <use
-                                        href="./images/svg/icons.svg#icon-icon-send"
-                                    ></use>
-                                </svg>
-                            </div>
-                        </button>
-                    </form>
-                </div>
-            </div>
+            <address>
+                <a
+                    class="footer__address"
+                    href="https://goo.gl/maps/V1taE6vsMn2LFqJW6"
+                    target="__blank"
+                    >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+                <a class="footer-font" href="mailto:info@rilin.pl"
+                    >info@rilin.pl</a
+                >
+                <a class="footer-font" href="tel:48111111111"
+                    >+48 730 860 666</a
+                >
+            </address>
         </footer>
         <script
             defer

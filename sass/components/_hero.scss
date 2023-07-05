@@ -1,0 +1,31 @@
+.hero {
+    &__slogan {
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3636;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        @media (max-width: 768px) {
+            text-align: center;
+            font-size: 26px;
+            line-height: 42px;
+            letter-spacing: 1.56px;
+            text-transform: uppercase;
+        }
+    }
+    &__button {
+        border: none;
+        border-radius: 4px;
+        font-family: $primary-font;
+        cursor: pointer;
+        font-weight: 700;
+        line-height: 1.875;
+        text-align: center;
+        letter-spacing: 0.06em;
+        padding: 10px 42px;
+        margin: 0 auto;
+        background-color: $only-blue;
+        color: $white-font;
+    }
+}

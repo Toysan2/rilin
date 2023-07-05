@@ -1,0 +1,247 @@
+.team {
+    &__picture-1 {
+        width: 270px;
+        height: 260px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../images/team/d-team-img-1-1x.jpg');
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-1 {
+                background-image: url('../images/team/d-team-img-1-2x.jpg');
+            }
+        }
+        @media (min-width: 0px) and (max-width: 480px) {
+            background-image: url('../images/team/m-team-img-1-1x.jpg');
+            width: 100%;
+            max-width: 450px;
+            height: 460px;
+        }
+        @media (min-width: 0px) and (max-width: 480px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-1 {
+                background-image: url('../images/team/m-team-img-1-2x.jpg');
+                width: 100%;
+                max-width: 450px;
+                height: 460px;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1200px) {
+            background-image: url('../images/team/t-team-img-1-1x.jpg');
+            width: 100%;
+            max-width: 354px;
+            height: 374px;
+        }
+        @media (min-width: 481px) and (max-width: 1200px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-1 {
+                background-image: url('../images/team/t-team-img-1-2x.jpg');
+                width: 100%;
+                max-width: 354px;
+                height: 374px;
+            }
+        }
+    }
+    &__picture-2 {
+        width: 270px;
+        height: 260px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../images/team/d-team-img-2-1x.jpg');
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-2 {
+                background-image: url('../images/team/d-team-img-2-2x.jpg');
+            }
+        }
+        @media (min-width: 0px) and (max-width: 480px) {
+            background-image: url('../images/team/m-team-img-2-1x.jpg');
+            width: 100%;
+            max-width: 450px;
+            height: 460px;
+        }
+        @media (min-width: 0px) and (max-width: 480px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-2 {
+                background-image: url('../images/team/m-team-img-2-2x.jpg');
+                width: 100%;
+                max-width: 450px;
+                height: 460px;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1200px) {
+            background-image: url('../images/team/t-team-img-2-1x.jpg');
+            width: 100%;
+            max-width: 354px;
+            height: 374px;
+        }
+        @media (min-width: 481px) and (max-width: 1200px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-2 {
+                background-image: url('../images/team/t-team-img-2-2x.jpg');
+                width: 100%;
+                max-width: 354px;
+                height: 374px;
+            }
+        }
+    }
+    &__picture-3 {
+        width: 270px;
+        height: 260px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../images/team/d-team-img-3-1x.jpg');
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-3 {
+                background-image: url('../images/team/d-team-img-3-2x.jpg');
+            }
+        }
+        @media (min-width: 0px) and (max-width: 480px) {
+            background-image: url('../images/team/m-team-img-3-1x.jpg');
+            width: 100%;
+            max-width: 450px;
+            height: 460px;
+        }
+        @media (min-width: 0px) and (max-width: 480px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-3 {
+                background-image: url('../images/team/m-team-img-3-2x.jpg');
+                width: 100%;
+                max-width: 450px;
+                height: 460px;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1200px) {
+            background-image: url('../images/team/t-team-img-3-1x.jpg');
+            width: 100%;
+            max-width: 354px;
+            height: 374px;
+        }
+        @media (min-width: 481px) and (max-width: 1200px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-3 {
+                background-image: url('../images/team/t-team-img-3-2x.jpg');
+                width: 100%;
+                max-width: 354px;
+                height: 374px;
+            }
+        }
+    }
+    &__picture-4 {
+        width: 270px;
+        height: 260px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../images/team/d-team-img-4-1x.jpg');
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-4 {
+                background-image: url('../images/team/d-team-img-4-2x.jpg');
+            }
+        }
+        @media (min-width: 0px) and (max-width: 480px) {
+            background-image: url('../images/team/m-team-img-4-1x.jpg');
+            width: 100%;
+            max-width: 450px;
+            height: 460px;
+        }
+        @media (min-width: 0px) and (max-width: 480px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-4 {
+                background-image: url('../images/team/m-team-img-4-2x.jpg');
+                width: 100%;
+                max-width: 450px;
+                height: 460px;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1200px) {
+            background-image: url('../images/team/t-team-img-4-1x.jpg');
+            width: 100%;
+            max-width: 354px;
+            height: 374px;
+        }
+        @media (min-width: 481px) and (max-width: 1200px) and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            &__picture-4 {
+                background-image: url('../images/team/t-team-img-4-2x.jpg');
+                width: 100%;
+                max-width: 354px;
+                height: 374px;
+            }
+        }
+    }
+    &__employee--name {
+        color: $dark-font;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1875;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    &__employee-description {
+        color: $grey-font;
+        font-size: 16px;
+        line-height: 1.1875;
+        padding-bottom: 16px;
+    }
+    &__employee__social-icons-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 30px;
+        margin-top: 16px;
+    }
+    &__social-icon__size {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-property: background-color, fill, border-radius;
+        transition-duration: 250ms;
+        transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 50%;
+    }
+    &__social-icon--animation {
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__social-icon__size:hover &__social-icon--animation {
+        fill: $white-font;
+    }
+    &__social-icon__size:hover {
+        fill: $white-font;
+        background-color: $only-blue;
+    }
+    &__social-icon__size:focus &__social-icon--animation {
+        fill: $white-font;
+    }
+    &__social-icon__size:focus {
+        fill: $white-font;
+        background-color: $only-blue;
+    }
+}
+.team li {
+    @media (min-width: 481px) and (max-width: 1200px) {
+        width: 100%;
+        max-width: 354px;
+    }
+}

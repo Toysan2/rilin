@@ -1,0 +1,12 @@
+@import 'utils/vars.scss';
+@import 'utils/globals.scss';
+@import 'components/header.scss';
+
+.hero-slogan {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    /*#3d6a2f*/
+    -webkit-text-stroke: 1px #3d6a2f;
+    text-shadow: 1px 1px 2px #ffde59;
+}
