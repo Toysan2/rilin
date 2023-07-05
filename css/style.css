@@ -3,18 +3,18 @@
     padding: 0;
 }
 body {
-    display: flex;
+    display: block;
     justify-self: center;
-    background-image: url(/images/hero-background.jpg);
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    display: block;
+    box-shadow: inset 0 0 0 1200px rgba(255, 251, 0, 0.336);
+
+    background-image: url(/images/hero-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+
     background-color: rgba(255, 251, 0, 0.336);
-    box-shadow: inset 0 0 0 1200px rgba(255, 251, 0, 0.336);
 }
 li {
     display: inline;
