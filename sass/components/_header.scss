@@ -8,13 +8,15 @@
     }
     &-icon-1 {
         position: absolute;
-        top: 40px;
-        right: 500px;
+        top: 28px;
+        right: 318px;
+        fill: white;
     }
     &-icon-2 {
         position: absolute;
-        top: 60px;
-        right: 500px;
+        top: 52px;
+        right: 318px;
+        fill: white;
     }
 }
 
@@ -28,6 +30,13 @@ nav.nav ul.nav li {
     display: inline-block;
     margin-right: 10px; /* Adjust this value as needed */
 }
+ul.header-contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 ul.header-contacts li {
+    display: flex;
     margin-bottom: 10px;
 }
