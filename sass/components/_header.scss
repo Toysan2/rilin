@@ -1,8 +1,33 @@
 .header {
     padding: 0 20px 0 20px;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-icon-1 {
+        position: absolute;
+        top: 40px;
+        right: 500px;
+    }
+    &-icon-2 {
+        position: absolute;
+        top: 60px;
+        right: 500px;
+    }
 }
-.header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+nav.nav ul.nav {
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav.nav ul.nav li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust this value as needed */
+}
+ul.header-contacts li {
+    margin-bottom: 10px;
 }
