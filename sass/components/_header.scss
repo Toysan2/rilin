@@ -7,8 +7,11 @@
         align-items: center;
     }
     &-icon {
-        margin-right: 5px;
+        margin-right: 10px;
         fill: white;
+    }
+    &-list {
+        display: flex;
     }
 }
 nav {
