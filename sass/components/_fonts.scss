@@ -50,3 +50,15 @@ p {
 a {
     text-decoration: none;
 }
+article {
+    background: linear-gradient(to right, hsl(0, 0%, 100%), hsl(48 100% 67));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1.1;
+}
