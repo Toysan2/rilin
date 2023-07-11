@@ -56,9 +56,25 @@ article {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    @media (max-width: 480px) {
+        position: absolute;
+        top: -330px;
+        left: -90px;
+    }
+    @media (min-width: 481px) and (max-width: 768px) {
+        position: absolute;
+        top: -300px;
+        left: -90px;
+    }
 }
 
 h1 {
     font-size: 80px;
     line-height: 1.1;
+    @media (max-width: 480px) {
+        font-size: 40px;
+    }
+    @media (min-width: 481px) and (max-width: 768px) {
+        font-size: 35px;
+    }
 }

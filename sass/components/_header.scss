@@ -1,12 +1,18 @@
 .header {
     position: absolute;
     z-index: 1;
-    min-width: 100%;
+    width: 100%;
+    min-height: 200px;
     background-color: $color2;
     padding: 10px 30px 0 30px;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(61, 106, 47, 1);
     -moz-box-shadow: 0px 5px 10px 0px rgba(61, 106, 47, 1);
     box-shadow: 0px 5px 10px 0px rgba(61, 106, 47, 1);
+
+    @media (min-width: 0px) and (max-width: 768px) {
+        min-height: 100px;
+        min-width: 480px;
+    }
 
     &-wrapper {
         display: flex;
@@ -23,7 +29,7 @@
 }
 nav {
     margin-right: 150px;
-    @media (min-width: 0px) and (max-width: 480px) {
+    @media (min-width: 0px) and (max-width: 768px) {
         display: none;
     }
 }
@@ -43,7 +49,7 @@ ul.header-contacts {
     margin-top: 10px;
     gap: 30px;
     margin-right: 150px;
-    @media (min-width: 0px) and (max-width: 480px) {
+    @media (min-width: 0px) and (max-width: 768px) {
         display: none;
     }
 }
@@ -54,6 +60,9 @@ ul.header-contacts li {
 }
 .logo {
     text-align: center;
+    @media (max-width: 480px) {
+        margin-top: 15px;
+    }
 }
 
 .logo img {
@@ -62,7 +71,7 @@ ul.header-contacts li {
 }
 
 /* Media Query for screen width 0px - 479px */
-@media (max-width: 479px) {
+@media (max-width: 480px) {
     .logo img {
         width: 100px;
         height: 50px;
@@ -70,9 +79,9 @@ ul.header-contacts li {
 }
 
 /* Media Query for screen width 480px - 769px */
-@media (min-width: 480px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 769px) {
     .logo img {
-        width: 250px;
-        height: 125px;
+        width: 200px;
+        height: 100px;
     }
 }

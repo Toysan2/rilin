@@ -3,7 +3,6 @@
     position: relative;
 
     &-slogan {
-        font-size: 50px;
         font-weight: 700;
         text-align: center;
         color: #fff;
@@ -18,7 +17,7 @@
     overflow: hidden;
     @media (min-width: 0px) and (max-width: 480px) {
         width: 100%;
-        max-width: 450px;
+        min-width: 480x;
     }
 }
 .video-bg {
@@ -31,6 +30,16 @@
     min-width: 100%;
     min-height: 100%;
     margin-top: 190px;
+    @media (min-width: 0px) and (max-width: 480px) {
+        top: -300px;
+        width: 100%;
+        max-width: 480px;
+    }
+    @media (min-width: 481px) and (max-width: 768px) {
+        top: -300px;
+        width: 100%;
+        max-width: 768px;
+    }
 }
 
 .hero-content {
