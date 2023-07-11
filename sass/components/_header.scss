@@ -23,6 +23,9 @@
 }
 nav {
     margin-right: 150px;
+    @media (min-width: 0px) and (max-width: 480px) {
+        display: none;
+    }
 }
 nav.nav ul.nav {
     display: inline;
@@ -39,9 +42,37 @@ ul.header-contacts {
     padding: 0;
     margin-top: 10px;
     gap: 30px;
+    margin-right: 150px;
+    @media (min-width: 0px) and (max-width: 480px) {
+        display: none;
+    }
 }
 
 ul.header-contacts li {
     margin-bottom: 20px;
     gap: 30px;
+}
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 350px;
+    height: 175px;
+}
+
+/* Media Query for screen width 0px - 479px */
+@media (max-width: 479px) {
+    .logo img {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+/* Media Query for screen width 480px - 769px */
+@media (min-width: 480px) and (max-width: 769px) {
+    .logo img {
+        width: 250px;
+        height: 125px;
+    }
 }
