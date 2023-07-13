@@ -17,7 +17,6 @@
     overflow: hidden;
     @media (min-width: 0px) and (max-width: 480px) {
         width: 100%;
-        min-width: 480x;
     }
 }
 .video-bg {
@@ -33,12 +32,10 @@
     @media (min-width: 0px) and (max-width: 480px) {
         top: -300px;
         width: 100%;
-        max-width: 480px;
     }
-    @media (min-width: 481px) and (max-width: 768px) {
+    @media (min-width: 481px) and (max-width: 1200px) {
         top: -300px;
         width: 100%;
-        max-width: 768px;
     }
 }
 

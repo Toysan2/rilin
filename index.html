@@ -63,6 +63,15 @@
                     </li>
                 </ul>
             </div>
+            <button
+                class="menu-toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+                <svg class="menu-toggle" width="40" height="40">
+                    <use href="./images/svg/icons.svg#icon-menu_40px"></use>
+                </svg>
+            </button>
         </header>
         <main>
             <!-- HERO -->
@@ -99,11 +108,59 @@
                 >
             </address>
         </footer>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                <svg class="menu-toggle" width="40" height="40">
+                    <use href="./images/svg/icons.svg#icon-close_40px"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu">
+                <svg class="menu-decoration" width="300" height="250">
+                    <use href="./images/svg/icons.svg#icon-wheat2"></use>
+                </svg>
+                <svg class="menu-decoration2" width="300" height="200">
+                    <use href="./images/svg/icons.svg#icon-wheat2"></use>
+                </svg>
+                <svg class="menu-decoration3" width="300" height="200">
+                    <use href="./images/svg/icons.svg#icon-wheat2"></use>
+                </svg>
+                <svg class="menu-cabbage" width="100" height="100">
+                    <use href="./images/svg/icons.svg#icon-cabbage1"></use>
+                </svg>
+                <svg class="menu-cabbage2" width="100" height="100">
+                    <use href="./images/svg/icons.svg#icon-cabbage2"></use>
+                </svg>
+                <svg class="menu-cabbage3" width="100" height="100">
+                    <use href="./images/svg/icons.svg#icon-cabbage1"></use>
+                </svg>
+                <li class="mobile-menu-list-spacing1">
+                    <a href="./index.html" class="mobile-menu-font"
+                        ><p><span>Strona główna</span></p></a
+                    >
+                </li>
+                <li class="mobile-menu-list-spacing1">
+                    <a href="./offer.html" class="mobile-menu-font"
+                        ><p><span>Oferta</span></p></a
+                    >
+                </li>
+                <li class="mobile-menu-list-spacing1">
+                    <a href="./contact.html" class="mobile-menu-font"
+                        ><p><span>Kontakt</span></p></a
+                    >
+                </li>
+                <li class="mobile-menu-list-spacing1">
+                    <a href="./about-us.html" class="mobile-menu-font"
+                        ><p><span>O nas</span></p></a
+                    >
+                </li>
+            </ul>
+        </div>
         <script
             defer
             src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
             integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
             crossorigin="anonymous"
         ></script>
+        <script defer src="./js/mobile-menu.js"></script>
     </body>
 </html>

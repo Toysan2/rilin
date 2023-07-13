@@ -15,23 +15,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media (min-width: 0px) and (max-width: 480px) {
-        width: 100%;
-        width: 480px;
-    }
 }
 
 li {
     display: inline;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    @media (min-width: 0px) and (max-width: 480px) {
-        width: 100%;
-        width: 480px;
-    }
 }
 
 .section {

@@ -11,7 +11,6 @@
 
     @media (min-width: 0px) and (max-width: 768px) {
         min-height: 100px;
-        min-width: 480px;
     }
 
     &-wrapper {
@@ -49,7 +48,7 @@ ul.header-contacts {
     margin-top: 10px;
     gap: 30px;
     margin-right: 150px;
-    @media (min-width: 0px) and (max-width: 768px) {
+    @media (min-width: 0px) and (max-width: 1200px) {
         display: none;
     }
 }
@@ -79,7 +78,7 @@ ul.header-contacts li {
 }
 
 /* Media Query for screen width 480px - 769px */
-@media (min-width: 481px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .logo img {
         width: 200px;
         height: 100px;
