@@ -1,175 +1,18 @@
 .footer {
-    &-wrapper {
-        display: flex;
-        gap: 70px;
-        justify-content: center;
-
-        @media (min-width: 0px) and (max-width: 480px) {
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-            text-align: center;
-        }
-        @media (min-width: 481px) and (max-width: 1200px) {
-            flex-wrap: wrap;
-            justify-items: center;
-            justify-content: center;
-            gap: 60px;
-            text-align: center;
-            margin-left: 80px;
-        }
+    margin-top: 1px;
+        padding-top: 30px;
+        background-color: $color2;
+            -webkit-box-shadow: 0px -10px 24px 0px rgba(61, 106, 47, 1);
+                -moz-box-shadow: 0px -10px 24px 0px rgba(61, 106, 47, 1);
+                box-shadow: 0px -10px 24px 0px rgba(61, 106, 47, 1);
     }
-    &-font {
-        font-style: normal;
-        text-decoration: none;
-        color: $ash-font;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.02em;
-    }
-    &-font:hover {
-        color: $only-blue;
-    }
-    &-font:focus {
-        color: $only-blue;
-    }
-    &__address {
-        font-style: normal;
-        color: $white-font;
-        text-decoration: none;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        padding-top: 20px;
-
-        &-container {
-            display: flex;
-            flex-direction: column;
-            gap: 9px;
+.address a {
+            display: inline;
         }
-    }
-    &__join-us-font {
-        font-family: Roboto;
-        font-style: Regular;
-        font-size: 14px;
-        line-height: 24px;
-        line-height: 146%;
-        letter-spacing: 3%;
-        color: $white-font;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-
-        @media (max-width: 480px) {
-            margin-top: 60px;
-        }
-    }
-    &__join-us-container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 12px;
-    }
-    &__join-us__social {
-        &-container {
-            display: flex;
-            gap: 10px;
-        }
-
-        &-icon-size {
-            width: 44px;
-            height: 44px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            transition-property: background-color, border-radius;
-            transition-duration: 250ms;
-            transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-            border-radius: 50%;
-        }
-        &-icon-size:hover .svg__fill--white {
-            fill: $white-font;
-        }
-        &-icon-size:hover {
-            background-color: $only-blue;
-        }
-
-        &-icon-size:focus .icon-footer__join-us__social-icon-size-details {
-            fill: $white-font;
-        }
-        &__icon-size:focus {
-            background-color: $only-blue;
-        }
-    }
-    &__newsletter {
-        width: 100%;
-        max-width: 570px;
-
-        @media (min-width: 481px) and (max-width: 1200px) {
-            width: 100%;
-            max-width: 768px;
-            margin: auto;
-        }
-
-        &__input {
-            border: Solid 1px rgba(255, 255, 255, 0.3);
-            background-color: $dark-background;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            width: 100%;
-            max-width: 358px;
-            height: 50px;
-            border-radius: 4px;
-            color: $white-font;
-            padding-left: 16px;
-        }
-        &__button {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            margin-left: 5px;
-            max-width: 200px;
-            height: 50px;
-            background-color: $only-blue;
-            gap: 24px;
-            border: solid 1px $only-blue;
-            border-radius: 4px;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-            @media (min-width: 0px) and (max-width: 480px) {
-                margin-top: 20px;
-                margin-left: 0px;
-            }
-        }
-
-        &__button-font {
-            font-family: Roboto;
-            font-weight: Bold;
-            font-size: 16px;
-            line-height: 1.875;
-            letter-spacing: 6%;
-            color: $white-font;
-            border: solid 1px $only-blue;
-            border-radius: 4px;
-        }
-        &__input::placeholder {
-            /* Chrome, Firefox, Opera, Safari 10.1+ */
-            color: $white-font;
-            opacity: 0.6; /* Firefox */
-        }
-        &__input:-ms-input-placeholder {
-            /* Internet Explorer 10-11 */
-            color: $white-font;
-            opacity: 0.6;
-        }
-        &__input::-ms-input-placeholder {
-            /* Microsoft Edge */
-            color: $white-font;
-            opacity: 0.6;
-        }
-    }
+.footer a {
+    display: inline;
 }
-.svg-fill--white {
-    fill: $white-font;
+.footer a:not(:last-child) {
+    margin-right: 20px;
 }
+address{width: 200px;}

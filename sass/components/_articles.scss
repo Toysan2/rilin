@@ -34,7 +34,14 @@
 }
 .articles-transform-3 {
     box-shadow: inset 0 0 0 1200px rgba(4, 63, 7, 0.473);
-    background-image: url(../images/transport-article.jpg);
+    background-image: url(../images/warzywa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.articles-transform-4 {
+    box-shadow: inset 0 0 0 1200px rgba(4, 63, 7, 0.473);
+    background-image: url(../images/biuro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -53,11 +60,13 @@
 }
 .articles-transform-3:hover,
 .articles-transform-3:focus {
+    box-shadow: none;
     transform: translate(0px, -75px) scale(1.5);
     z-index: 2;
 }
 .articles-transform-4:hover,
 .articles-transform-4:focus {
+    box-shadow: none;
     transform: translate(-120px, -75px) scale(1.5);
     z-index: 2;
 }
@@ -98,12 +107,14 @@ h2 {
 
 .articles-transform.show-p3 .p3,
 .articles-transform-2.show-p3 .p3,
-.articles-transform-3.show-p3 .p3 {
+.articles-transform-3.show-p3 .p3,
+.articles-transform-4.show-p3 .p3 {
     display: block;
 }
 
 .articles-transform.show-p3 .p2,
 .articles-transform-2.show-p3 .p2,
-.articles-transform-3.show-p3 .p2 {
+.articles-transform-3.show-p3 .p2,
+.articles-transform-4.show-p3 .p2 {
     display: none;
 }
