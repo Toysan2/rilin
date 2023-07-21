@@ -129,9 +129,11 @@ p>strong {
     background-size: 0 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding: 3px;
+    border-radius: 10px;
 
 
 &--thin {
-    background-image: linear-gradient(to right, $color2 0, $color 100%);
+    background-image: linear-gradient(to right, rgba(61, 106, 47, 0.6), rgba(255, 222, 89, 0.6) 100%);
 }
 }
