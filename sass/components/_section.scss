@@ -55,3 +55,29 @@
     justify-content: center;
     gap: 40px;
 }
+.packages {
+    display: block;
+    width: 100%;
+    box-shadow: inset 0 0 0 1200px rgba(4, 63, 7, 0.5);
+    font-family: 'Baloo 2', cursive;
+
+    background-image: url('../images/packages.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 0 82px 0px;
+    text-align: center;
+}
+.offer {
+    display: block;
+    width: 100%;
+    box-shadow: inset 0 0 0 1200px rgba(4, 63, 7, 0.5);
+    font-family: 'Baloo 2', cursive;
+
+    background-image: url('../images/offer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 0 82px 0px;
+    text-align: center;
+}
