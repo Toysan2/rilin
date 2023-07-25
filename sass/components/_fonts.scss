@@ -91,7 +91,7 @@ strong {
 
         // Position the line behind the text so that
         // it is still easily readable
-        z-index: -1;
+        z-index: 1;
 
         // The SVG is added as an SVG background image
         background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg');
@@ -107,7 +107,7 @@ strong {
     }
 }
 
-p>strong {
+p > strong {
     font-weight: 400;
 
     &::after {
@@ -132,8 +132,11 @@ p>strong {
     padding: 3px;
     border-radius: 10px;
 
-
-&--thin {
-    background-image: linear-gradient(to right, rgba(61, 106, 47, 0.6), rgba(255, 222, 89, 0.6) 100%);
-}
+    &--thin {
+        background-image: linear-gradient(
+            to right,
+            rgba(61, 106, 47, 0.6),
+            rgba(255, 222, 89, 0.6) 100%
+        );
+    }
 }
