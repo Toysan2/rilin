@@ -27,7 +27,7 @@
     }
 }
 nav {
-    margin-right: 150px;
+    margin-right: 100px;
     @media (min-width: 0px) and (max-width: 768px) {
         display: none;
     }
@@ -42,18 +42,19 @@ nav.nav ul.nav li {
     display: inline-block;
     margin-right: 40px; /* Adjust this value as needed */
 }
-ul.header-contacts {
+ul.header-languages {
     list-style: none;
     padding: 0;
     margin-top: 10px;
     gap: 30px;
-    margin-right: 150px;
+    margin-right: 100px;
     @media (min-width: 0px) and (max-width: 1200px) {
         display: none;
     }
 }
 
-ul.header-contacts li {
+ul.header-languages li {
+    display: inline-block;
     margin-bottom: 20px;
     gap: 30px;
 }
@@ -83,4 +84,49 @@ ul.header-contacts li {
         width: 200px;
         height: 100px;
     }
+}
+.pl {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    background-image: url('../images/pl.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.en {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    background-image: url('../images/uk.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.de {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    background-image: url('../images/de.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.es {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    background-image: url('../images/es.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.it {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    background-image: url('../images/it.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
