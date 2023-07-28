@@ -1,0 +1,125 @@
+.about-us {
+    padding-top: 300px;
+    padding-bottom: 463px;
+    box-shadow: inset 0 0 0 1200px rgba(4, 63, 7, 0.3);
+    background-image: url('../images/about-us-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position {
+    margin-left: 50px;
+    width: 1350px;
+}
+.pic-1 {
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/pic-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    top: 400px;
+    right: 300px;
+}
+.pic-2 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/pic-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 440px;
+    right: 50px;
+}
+.pic-3 {
+    width: 300px;
+    height: 200px;
+    background-image: url('../images/pic-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 540px;
+    right: 300px;
+}
+.pic-4 {
+    width: 300px;
+    height: 200px;
+    background-image: url('../images/pic-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+.pic-5 {
+    width: 350px;
+    height: 250px;
+    background-image: url('../images/pic-5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 550px;
+    left: 300px;
+}
+.pic-6 {
+    width: 250px;
+    height: 300px;
+    background-image: url('../images/pic-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 580px;
+    left: 60px;
+}
+.pic-7 {
+    width: 300px;
+    height: 250px;
+    background-image: url('../images/pic-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    position: absolute;
+    top: 640px;
+    right: 200px;
+}
+/* Add your desired styles for the divs */
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4,
+.pic-5,
+.pic-6,
+.pic-7 {
+    transition: transform 0.3s, z-index 0.3s; /* Add transition property */
+}
+
+/* Define the scaling effect on hover */
+.pic-1:hover,
+.pic-2:hover,
+.pic-3:hover,
+.pic-4:hover,
+.pic-5:hover,
+.pic-6:hover,
+.pic-7:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
