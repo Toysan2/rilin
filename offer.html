@@ -20,46 +20,63 @@
                     <ul class="nav">
                         <li>
                             <a href="./index.html">
-                                <p><span>Strona główna</span></p></a
+                                <p>
+                                    <span data-translate="home"
+                                        >Strona główna</span
+                                    >
+                                </p></a
                             >
                         </li>
                         <li>
                             <a href="./offer.html"
-                                ><p><span>Oferta</span></p></a
+                                ><p>
+                                    <span data-translate="offer">Oferta</span>
+                                </p></a
                             >
                         </li>
                         <li>
                             <a href="./contact.html"
-                                ><p><span>Kontakt</span></p></a
+                                ><p>
+                                    <span data-translate="contact"
+                                        >Kontakt</span
+                                    >
+                                </p></a
                             >
                         </li>
                         <li>
                             <a href="./about-us.html"
-                                ><p><span>O nas</span></p></a
+                                ><p>
+                                    <span data-translate="about">O nas</span>
+                                </p></a
                             >
                         </li>
                     </ul>
                 </nav>
-                <ul class="header-contacts">
+                <ul class="header-languages">
                     <li>
-                        <a class="header-list" href="mailto:info@rilin.pl">
-                            <svg class="header-icon" width="16" height="12">
-                                <use
-                                    href="./images/svg/icons.svg#icon-envelope"
-                                ></use>
-                            </svg>
-                            <p class="p1"><span>info@rilin.pl</span></p>
-                        </a>
+                        <button class="pl" id="plButton" type="button">
+                            PL
+                        </button>
                     </li>
                     <li>
-                        <a class="header-list" href="tel:48730860666"
-                            ><svg class="header-icon" width="10" height="16">
-                                <use
-                                    href="./images/svg/icons.svg#icon-smartphone"
-                                ></use>
-                            </svg>
-                            <p class="p1"><span>+48 730 860 666</span></p>
-                        </a>
+                        <button class="en" id="enButton" type="button">
+                            EN
+                        </button>
+                    </li>
+                    <li>
+                        <button class="de" id="deButton" type="button">
+                            DE
+                        </button>
+                    </li>
+                    <li>
+                        <button class="es" id="esButton" type="button">
+                            ES
+                        </button>
+                    </li>
+                    <li>
+                        <button class="it" id="itButton" type="button">
+                            IT
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -80,7 +97,7 @@
                         class="product-name"
                         onclick="expandProduct('product1')"
                     >
-                        <h3>Kapusta Biała</h3>
+                        <h3 data-translate="product1a">Kapusta Biała</h3>
                     </div>
                     <div class="product-details" id="productDetails1">
                         <div class="product-picture">
@@ -91,7 +108,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product1b"
+                            >
+                                Dostępność: Cały rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +123,7 @@
                         class="product-name"
                         onclick="expandProduct('product2')"
                     >
-                        <h3>Kapusta Czerwona</h3>
+                        <h3 data-translate="product2a">Kapusta Czerwona</h3>
                     </div>
                     <div class="product-details" id="productDetails2">
                         <div class="product-picture">
@@ -112,7 +134,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product2b"
+                            >
+                                Dostępność: Cały rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +149,7 @@
                         class="product-name"
                         onclick="expandProduct('product3')"
                     >
-                        <h3>Kapusta Pekińska</h3>
+                        <h3 data-translate="product3a">Kapusta Pekińska</h3>
                     </div>
                     <div class="product-details" id="productDetails3">
                         <div class="product-picture">
@@ -133,7 +160,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product3b"
+                            >
+                                Dostępność: Cały rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +175,7 @@
                         class="product-name"
                         onclick="expandProduct('product4')"
                     >
-                        <h3>Kapusta Włoska</h3>
+                        <h3 data-translate="product4a">Kapusta Włoska</h3>
                     </div>
                     <div class="product-details" id="productDetails4">
                         <div class="product-picture">
@@ -154,7 +186,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product4b"
+                            >
                                 Dostępność: Lipiec - Kwiecień
                             </p>
                         </div>
@@ -166,7 +201,7 @@
                         class="product-name"
                         onclick="expandProduct('product5')"
                     >
-                        <h3>Por</h3>
+                        <h3 data-translate="product5a">Por</h3>
                     </div>
                     <div class="product-details" id="productDetails5">
                         <div class="product-picture">
@@ -177,7 +212,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product5b"
+                            >
                                 Dostępność: Lipiec - Maj
                             </p>
                         </div>
@@ -189,7 +227,7 @@
                         class="product-name"
                         onclick="expandProduct('product6')"
                     >
-                        <h3>Papryka</h3>
+                        <h3 data-translate="product6a">Papryka</h3>
                     </div>
                     <div class="product-details" id="productDetails6">
                         <div class="product-picture">
@@ -200,18 +238,22 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product6b"
+                            >
                                 Dostępność: Czerwiec - Październik
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="product" id="product7">
                     <div
                         class="product-name"
                         onclick="expandProduct('product7')"
                     >
-                        <h3>Ziemniaki</h3>
+                        <h3 data-translate="product7a">Ziemniaki</h3>
                     </div>
                     <div class="product-details" id="productDetails7">
                         <div class="product-picture">
@@ -222,7 +264,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product7b"
+                            >
+                                Dostępność: Cały rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -232,7 +279,7 @@
                         class="product-name"
                         onclick="expandProduct('product8')"
                     >
-                        <h3>Marchew</h3>
+                        <h3 data-translate="product8a">Marchew</h3>
                     </div>
                     <div class="product-details" id="productDetails8">
                         <div class="product-picture">
@@ -243,7 +290,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product8b"
+                            >
                                 Dostępność: Lipiec - Kwiecień
                             </p>
                         </div>
@@ -255,7 +305,7 @@
                         class="product-name"
                         onclick="expandProduct('product9')"
                     >
-                        <h3>Dynia</h3>
+                        <h3 data-translate="product9a">Dynia</h3>
                     </div>
                     <div class="product-details" id="productDetails9">
                         <div class="product-picture">
@@ -266,7 +316,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product9b"
+                            >
                                 Dostępność: Wrzesień - Listopad
                             </p>
                         </div>
@@ -278,7 +331,7 @@
                         class="product-name"
                         onclick="expandProduct('product10')"
                     >
-                        <h3>Kalafior</h3>
+                        <h3 data-translate="product10a">Kalafior</h3>
                     </div>
                     <div class="product-details" id="productDetails10">
                         <div class="product-picture">
@@ -289,7 +342,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product10b"
+                            >
                                 Dostępność: Maj - Listopad
                             </p>
                         </div>
@@ -301,7 +357,7 @@
                         class="product-name"
                         onclick="expandProduct('product11')"
                     >
-                        <h3>Kalarepa</h3>
+                        <h3 data-translate="product11a">Kalarepa</h3>
                     </div>
                     <div class="product-details" id="productDetails11">
                         <div class="product-picture">
@@ -312,7 +368,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product11b"
+                            >
                                 Dostępność: Maj - Listopad
                             </p>
                         </div>
@@ -324,7 +383,7 @@
                         class="product-name"
                         onclick="expandProduct('product12')"
                     >
-                        <h3>Cukinia</h3>
+                        <h3 data-translate="product12a">Cukinia</h3>
                     </div>
                     <div class="product-details" id="productDetails12">
                         <div class="product-picture">
@@ -335,7 +394,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product12b"
+                            >
                                 Dostępność: Czerwiec - Listopad
                             </p>
                         </div>
@@ -347,7 +409,7 @@
                         class="product-name"
                         onclick="expandProduct('product13')"
                     >
-                        <h3>Natka Pietruszki</h3>
+                        <h3 data-translate="product13a">Natka Pietruszki</h3>
                     </div>
                     <div class="product-details" id="productDetails13">
                         <div class="product-picture">
@@ -358,7 +420,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product13b"
+                            >
                                 Dostępność: Czerwiec - Listopad
                             </p>
                         </div>
@@ -370,7 +435,7 @@
                         class="product-name"
                         onclick="expandProduct('product14')"
                     >
-                        <h3>Jabłka</h3>
+                        <h3 data-translate="product14a">Jabłka</h3>
                     </div>
                     <div class="product-details" id="productDetails14">
                         <div class="product-picture">
@@ -381,7 +446,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały Rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product14b"
+                            >
+                                Dostępność: Cały Rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -391,7 +461,7 @@
                         class="product-name"
                         onclick="expandProduct('product15')"
                     >
-                        <h3>Gruszki</h3>
+                        <h3 data-translate="product15a">Gruszki</h3>
                     </div>
                     <div class="product-details" id="productDetails15">
                         <div class="product-picture">
@@ -402,7 +472,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały Rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product15b"
+                            >
+                                Dostępność: Cały Rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -412,7 +487,7 @@
                         class="product-name"
                         onclick="expandProduct('product16')"
                     >
-                        <h3>Pomidory</h3>
+                        <h3 data-translate="product16a">Pomidory</h3>
                     </div>
                     <div class="product-details" id="productDetails16">
                         <div class="product-picture">
@@ -423,7 +498,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product16b"
+                            >
                                 Dostępność: Maj - Listopad
                             </p>
                         </div>
@@ -435,7 +513,7 @@
                         class="product-name"
                         onclick="expandProduct('product17')"
                     >
-                        <h3>Seler</h3>
+                        <h3 data-translate="product17a">Seler</h3>
                     </div>
                     <div class="product-details" id="productDetails17">
                         <div class="product-picture">
@@ -446,7 +524,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product17b"
+                            >
                                 Dostępność: Sierpień - Kwiecień
                             </p>
                         </div>
@@ -458,7 +539,7 @@
                         class="product-name"
                         onclick="expandProduct('product18')"
                     >
-                        <h3>Seler Naciowy</h3>
+                        <h3 data-translate="product18a">Seler Naciowy</h3>
                     </div>
                     <div class="product-details" id="productDetails18">
                         <div class="product-picture">
@@ -469,7 +550,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product18b"
+                            >
                                 Dostępność: Lipiec - Kwiecień
                             </p>
                         </div>
@@ -481,7 +565,7 @@
                         class="product-name"
                         onclick="expandProduct('product19')"
                     >
-                        <h3>Cebula Złota</h3>
+                        <h3 data-translate="product19a">Cebula Złota</h3>
                     </div>
                     <div class="product-details" id="productDetails19">
                         <div class="product-picture">
@@ -492,7 +576,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały Rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product19b"
+                            >
+                                Dostępność: Cały Rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -502,7 +591,7 @@
                         class="product-name"
                         onclick="expandProduct('product20')"
                     >
-                        <h3>Cebula Czerwona</h3>
+                        <h3 data-translate="product20a">Cebula Czerwona</h3>
                     </div>
                     <div class="product-details" id="productDetails20">
                         <div class="product-picture">
@@ -513,7 +602,12 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">Dostępność: Cały Rok</p>
+                            <p
+                                class="prod-description"
+                                data-translate="product20b"
+                            >
+                                Dostępność: Cały Rok
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -523,7 +617,7 @@
                         class="product-name"
                         onclick="expandProduct('product21')"
                     >
-                        <h3>Sałata Lodowa</h3>
+                        <h3 data-translate="product21a">Sałata Lodowa</h3>
                     </div>
                     <div class="product-details" id="productDetails21">
                         <div class="product-picture">
@@ -534,7 +628,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product21b"
+                            >
                                 Dostępność: Maj - Październik
                             </p>
                         </div>
@@ -546,7 +643,7 @@
                         class="product-name"
                         onclick="expandProduct('product22')"
                     >
-                        <h3>Rabarbar</h3>
+                        <h3 data-translate="product22a">Rabarbar</h3>
                     </div>
                     <div class="product-details" id="productDetails22">
                         <div class="product-picture">
@@ -557,7 +654,10 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product22b"
+                            >
                                 Dostępność: Kwiecień - Listopad
                             </p>
                         </div>
@@ -569,7 +669,7 @@
                         class="product-name"
                         onclick="expandProduct('product23')"
                     >
-                        <h3>Bakłażan</h3>
+                        <h3 data-translate="product23a">Bakłażan</h3>
                     </div>
                     <div class="product-details" id="productDetails23">
                         <div class="product-picture">
@@ -580,13 +680,16 @@
                             />
                         </div>
                         <div>
-                            <p class="prod-description">
+                            <p
+                                class="prod-description"
+                                data-translate="product23b"
+                            >
                                 Dostępność: Lipiec - Październik
                             </p>
                         </div>
                     </div>
                 </div>
-                <p class="offer-notice">
+                <p class="offer-notice" data-translate="offerNotice">
                     W celu ustalenia szczegółów gatunku owoców i warzyw prosimy
                     o kontakt mailowy
                 </p>
@@ -660,6 +763,12 @@
             crossorigin="anonymous"
         ></script>
         <script defer src="./js/mobile-menu.js"></script>
+        <script defer src="./js/replace.js"></script>
+        <script defer src="./js/replace-2.js"></script>
+        <script defer src="./js/replace-3.js"></script>
+        <script defer src="./js/replace-4.js"></script>
+        <script defer src="./js/languages.js"></script>
         <script defer src="./js/expand-product.js"></script>
+        <script defer src="./js/rememberLanguages.js"></script>
     </body>
 </html>
