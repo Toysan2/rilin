@@ -121,6 +121,7 @@ const languages = {
             'W celu ustalenia szczegółów gatunku owoców i warzyw prosimy o kontakt mailowy',
         aboutUs:
             'Jesteśmy firmą zrzeszającą wielu polskich producentów warzyw oraz owoców takich jak my. Chcemy, by każdy znał dobrą jakość smaku naszych lokalnych produktów.',
+        eMail: 'Szanowni klienci, obsługujemy telefony w języku polskim oraz angielskim. W innym przypadku prosimy o kontakt mailowy',
     },
     en: {
         home: 'Home',
@@ -235,6 +236,7 @@ const languages = {
             'For details regarding fruit and vegetable varieties, please contact us via email',
         aboutUs:
             'We are a company that brings together many Polish producers of vegetables and fruits like us. We want everyone to know the excellent taste quality of our local products.',
+        eMail: 'Dear customers, we provide phone support in Polish and English. Otherwise, please contact us via email',
     },
     de: {
         home: 'Startseite',
@@ -351,6 +353,7 @@ const languages = {
             'Für Details zu Obst- und Gemüsesorten kontaktieren Sie uns bitte per E-Mail',
         aboutUs:
             'Wir sind ein Unternehmen, das viele polnische Produzenten von Gemüse und Obst wie uns zusammenführt. Wir möchten, dass jeder die ausgezeichnete Geschmacksqualität unserer lokalen Produkte kennt.',
+        eMail: 'Sehr geehrte Kunden, wir bieten telefonischen Support in Polnisch und Englisch an. Andernfalls kontaktieren Sie uns bitte per E-Mail',
     },
     es: {
         home: 'Inicio',
@@ -467,6 +470,7 @@ const languages = {
             'Para obtener detalles sobre variedades de frutas y verduras, contáctenos por correo electrónico',
         aboutUs:
             'Somos una empresa que reúne a muchos productores polacos de verduras y frutas como nosotros. Queremos que todos conozcan la excelente calidad del sabor de nuestros productos locales.',
+        eMail: 'Estimados clientes, brindamos soporte telefónico en polaco e inglés. De lo contrario, por favor contáctenos por correo electrónico',
     },
     it: {
         home: 'Home',
@@ -584,6 +588,7 @@ const languages = {
             'Per i dettagli riguardanti le varietà di frutta e verdura, vi preghiamo di contattarci tramite e-mail',
         aboutUs:
             "Siamo un'azienda che riunisce molti produttori polacchi di verdure e frutta come noi. Vogliamo che tutti conoscano l'eccellente qualità del gusto dei nostri prodotti locali.",
+        eMail: 'Gentili clienti, forniamo assistenza telefonica in polacco e inglese. In caso contrario, vi preghiamo di contattarci via email',
     },
 
     // Function to set the selected language in Local Storage

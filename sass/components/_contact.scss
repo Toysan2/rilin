@@ -1,7 +1,9 @@
 .contact {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding-top: 300px;
     gap: 30px;
     margin-bottom: 50px;
