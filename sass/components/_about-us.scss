@@ -6,10 +6,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 .position {
     margin-left: 50px;
     width: 1350px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        margin-left: 0px;
+        padding-left: 50px;
+        width: 100%;
+    }
 }
 .pic-1 {
     width: 200px;
@@ -22,6 +32,9 @@
     border-radius: 10px;
     top: 400px;
     right: 300px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 .pic-2 {
     width: 300px;
@@ -35,6 +48,9 @@
     position: absolute;
     top: 440px;
     right: 50px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 .pic-3 {
     width: 300px;
@@ -48,6 +64,9 @@
     position: absolute;
     top: 540px;
     right: 300px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 .pic-4 {
     width: 300px;
@@ -61,6 +80,9 @@
     position: absolute;
     top: 450px;
     left: 30px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 .pic-5 {
     width: 350px;
@@ -74,6 +96,9 @@
     position: absolute;
     top: 550px;
     left: 300px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 .pic-6 {
     width: 250px;
@@ -87,6 +112,9 @@
     position: absolute;
     top: 580px;
     left: 60px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 .pic-7 {
     width: 300px;
@@ -100,6 +128,9 @@
     position: absolute;
     top: 640px;
     right: 200px;
+    @media (min-width: 0px) and (max-width: 1200px) {
+        display: none;
+    }
 }
 /* Add your desired styles for the divs */
 .pic-1,

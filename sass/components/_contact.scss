@@ -7,6 +7,10 @@
     padding-top: 300px;
     gap: 30px;
     margin-bottom: 50px;
+
+    @media (min-width: 0px) and (max-width: 1200px) {
+        padding-top: 50px;
+    }
 }
 .text {
     font-size: 25px;

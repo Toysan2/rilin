@@ -44,12 +44,15 @@
     position: absolute;
     background-color: transparent;
     border: none;
-    top: 18px;
+    top: 7px;
     right: 5px;
     fill: #fff;
 
     @media (min-width: 769px) {
         display: none;
+    }
+    @media (min-width: 481px) and (max-width: 1200px) {
+        top: 5vw;
     }
 }
 
@@ -61,8 +64,11 @@
 .mobile-menu {
     display: flex;
     flex-direction: column;
-    list-style: none;
     align-items: center;
+    list-style: none;
+    padding-right: 30px;
+    white-space: nowrap;
+    z-index: 1;
 }
 .mobile-menu-list-spacing1 {
     margin-bottom: 36px;
@@ -123,41 +129,4 @@ ul#mobile-menu-social li {
     flex-direction: column;
     justify-content: space-between;
     gap: 64px;
-}
-.menu-decoration {
-    position: absolute;
-    top: 250px;
-    left: -20px;
-    transform: rotate(-25deg);
-    fill: $color;
-}
-.menu-decoration2 {
-    position: absolute;
-    top: 310px;
-    left: -50px;
-    transform: rotate(-50deg);
-    fill: $color;
-}
-.menu-decoration3 {
-    position: absolute;
-    top: 290px;
-    left: 20px;
-    transform: rotate(-15deg);
-    fill: $color;
-}
-.menu-cabbage {
-    position: absolute;
-    top: 400px;
-    right: 5px;
-}
-.menu-cabbage2 {
-    position: absolute;
-    top: 320px;
-    right: 5px;
-}
-.menu-cabbage3 {
-    position: absolute;
-    top: 370px;
-    right: 85px;
-    transform: rotate(-90deg);
 }

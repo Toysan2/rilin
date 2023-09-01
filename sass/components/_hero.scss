@@ -1,23 +1,27 @@
 .hero {
     display: flex;
-    position: relative;
+    flex-direction: column;
+    text-align: center;
+    background-color: $color2;
+    color: #fff;
 
-    &-slogan {
-        font-weight: 700;
-        text-align: center;
-        color: #fff;
-        /*#3d6a2f*/
-        text-shadow: 1px 1px 2px #ffde59;
-    }
+    text-shadow: 1px 1px 2px #ffde59;
 }
+
 .video {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: 76vh; /* Adjusted to 40% of the screen height */
+
     @media (min-width: 0px) and (max-width: 480px) {
-        width: 100%;
+        height: 40vh;
     }
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video fills the container without cropping */
 }
 .video-bg {
     position: absolute;
@@ -28,23 +32,30 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    margin-top: 190px;
     @media (min-width: 0px) and (max-width: 480px) {
-        top: -300px;
-        width: 100%;
+        top: 0;
     }
     @media (min-width: 481px) and (max-width: 1200px) {
         top: -300px;
-        width: 100%;
     }
 }
 
 .hero-content {
     position: absolute;
-    margin-top: 450px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(
+        -50%,
+        -50%
+    ); /* Center both horizontally and vertically */
     text-align: center;
     color: #fff;
     z-index: 1;
+
+    @media (max-width: 480px) {
+        top: 130vw; /* Adjust the vertical position on mobile screens */
+        h1 {
+            font-size: 35px;
+        }
+    }
 }
