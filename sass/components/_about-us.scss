@@ -15,7 +15,7 @@
 .position {
     margin-left: 50px;
     width: 1350px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    @media (min-width: 0px) and (max-width: 1400px) {
         margin-left: 0px;
         padding-left: 50px;
         width: 100%;
@@ -30,9 +30,9 @@
     background-size: cover;
     position: absolute;
     border-radius: 10px;
-    top: 400px;
-    right: 300px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    top: 550px;
+    right: 350px;
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }
@@ -48,7 +48,7 @@
     position: absolute;
     top: 440px;
     right: 50px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }
@@ -64,7 +64,7 @@
     position: absolute;
     top: 540px;
     right: 300px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }
@@ -78,9 +78,9 @@
     position: absolute;
     border-radius: 10px;
     position: absolute;
-    top: 450px;
-    left: 30px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    top: 710px;
+    left: 280px;
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }
@@ -96,7 +96,7 @@
     position: absolute;
     top: 550px;
     left: 300px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }
@@ -112,7 +112,7 @@
     position: absolute;
     top: 580px;
     left: 60px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }
@@ -128,7 +128,7 @@
     position: absolute;
     top: 640px;
     right: 200px;
-    @media (min-width: 0px) and (max-width: 1200px) {
+    @media (min-width: 0px) and (max-width: 1400px) {
         display: none;
     }
 }

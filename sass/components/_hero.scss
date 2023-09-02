@@ -16,6 +16,9 @@
     @media (min-width: 0px) and (max-width: 480px) {
         height: 40vh;
     }
+    @media (min-width: 481px) and (max-width: 768px) {
+        height: 50vh;
+    }
 }
 
 .video video {
@@ -36,13 +39,13 @@
         top: 0;
     }
     @media (min-width: 481px) and (max-width: 1200px) {
-        top: -300px;
+        top: 0px;
     }
 }
 
 .hero-content {
     position: absolute;
-    top: 50%; /* Center vertically */
+    top: 60%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(
         -50%,
@@ -53,9 +56,12 @@
     z-index: 1;
 
     @media (max-width: 480px) {
-        top: 130vw; /* Adjust the vertical position on mobile screens */
+        top: 80%; /* Adjust the vertical position on mobile screens */
         h1 {
             font-size: 35px;
         }
+    }
+    @media (min-width: 481px) and (max-width: 1200px) {
+        top: 90%;
     }
 }
